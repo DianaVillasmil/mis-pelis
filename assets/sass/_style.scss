@@ -1,3 +1,39 @@
-font-family: 'Lobster', cursive;
-font-family: 'Anton', sans-serif;
-font-family: 'Dosis', sans-serif;
+body {
+	font-family:'Lobster', cursive;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	background-color: black;
+}
+
+section {
+
+	& img {
+		width: 23%;
+	    margin-left: 100px;
+	    margin-top: 140px;
+	}
+
+	& .text-logo h1 {
+		font-family:'Lobster', cursive;
+		color: #fff;
+	    width: 70%;
+	    font-size: 60px;
+		margin-left: 63px;
+	    margin-top: -36px;
+	}
+
+	& input {
+		text-align: center;
+		margin-left: 15px;
+	    width: 90%;
+	    height: 26px;
+	    border-radius: 22px;
+	    color: gray;
+	    border: none;
+	}
+
+	& a {
+		font-weight: bold;
+	    margin-left: 119px;
+	}
+}
