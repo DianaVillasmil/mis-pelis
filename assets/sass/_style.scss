@@ -1,3 +1,5 @@
+//css index.html
+
 body {
 	font-family:'Lobster', cursive;
 	font-family: 'Anton', sans-serif;
@@ -35,5 +37,33 @@ section {
 	& a {
 		font-weight: bold;
 	    margin-left: 119px;
+	}
+}
+
+//css create-account.html
+
+.create-account {
+	background-color: #e2e2e2;
+
+	& p {
+		margin-left: 20px;
+	    color: gray;
+	}
+
+	& form .top {
+	    margin-top: 61px;
+	}
+}
+
+form {
+	& a {
+		color: rgb(247, 243, 243);
+	    text-decoration: none;
+	    background-color: #333;
+	    padding: 7px 62px;
+	    border-radius: 5px !important;
+	    font-weight: bold !important;
+	    font-size: 19px;
+	    margin-left: 89px !important;
 	}
 }

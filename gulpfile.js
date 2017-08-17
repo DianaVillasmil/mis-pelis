@@ -37,6 +37,7 @@
  	gulp.src("./")
  		.pipe(webserver({
  			fallback: "index.html",
+ 			fallback: "create-account.html",
  			livereload: true,
  			directoryListing: false,
  			open: true
