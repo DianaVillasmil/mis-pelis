@@ -38,6 +38,9 @@
  		.pipe(webserver({
  			fallback: "index.html",
  			fallback: "create-account.html",
+ 			fallback: "movis.html",
+ 			fallback: "detalis.html",
+ 			fallback: "actor.html",
  			livereload: true,
  			directoryListing: false,
  			open: true

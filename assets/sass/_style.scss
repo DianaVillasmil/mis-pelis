@@ -4,7 +4,11 @@ body {
 	font-family:'Lobster', cursive;
 	font-family: 'Anton', sans-serif;
 	font-family: 'Dosis', sans-serif;
+}
+
+.index {
 	background-color: black;
+
 }
 
 section {
@@ -70,7 +74,7 @@ form {
 
 //css movies 
 	#pack {
-		width: 310px!important;
+		width: 328px!important;
 	    padding: 9px;
 	    margin-top: 10px;
 	    border-radius: 5px;
@@ -83,4 +87,44 @@ form {
 		background-color: #e2e2e2;
 
 	}
-    
+
+//css details
+
+.img-actor {
+	background-image: url("../../assets/img/Pulp-Fiction-Duo2.jpg");
+	padding: 100px;
+
+    }
+
+ .watch {
+ 	background-color: black;
+ 	color: white;
+ 	padding:6px;
+ }
+
+ .watch p {
+ 	margin-left: 10px;
+ }
+i {
+	color: #e6c423;
+}
+
+.gray {
+	color: gray;
+}
+
+.start i, .gray {
+	margin-top: 20px;
+}
+
+.starring ul  {
+	list-style: none;
+	color: #e6c423;
+}
+
+.starring p {
+	color: #e6c423;
+}
+.movie-descriction p {
+	color: gray;
+}
